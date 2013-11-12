@@ -15,9 +15,11 @@ yajl-py
 .. image:: https://pypip.in/d/yajl-py/badge.png
    :target: https://crate.io/packages/yajl-py/#info
 
-``yajl-py`` is a Pure Python wrapper (implemented using
+``pyyajl`` is a Pure Python wrapper (implemented using
 ctypes) to the excellent Yajl (Yet Another JSON Library) C
 library.
+
+This is a renamed fork of ``yajl-py`` to keep it from conflicting with other yajl wrappers.
 
 ``yajl`` and ``yajl-py``, allow for fast stream parsing of JSON
 files, which enables the parsing of large files, that would

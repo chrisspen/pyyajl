@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 import sys, os
 
-from yajl import __version__ as version
+from pyyajl import __version__ as version
 
-setup(name='yajl-py',
+setup(name='pyyajl',
       version=version,
       description="Pure Python Yajl Wrapper",
       long_description="""\
