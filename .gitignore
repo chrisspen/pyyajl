@@ -19,3 +19,4 @@ build/
 # yajl build
 yajl-src
 /.project
+/.pydevproject
