@@ -13,6 +13,7 @@ Pure Python wrapper to the Yajl C library
 from yajl_common import *
 from yajl_parse import *
 from yajl_gen import *
+from yajl_simple import *
 
 __version__ = '2.0.6'
 yajl_version = get_yajl_version()
