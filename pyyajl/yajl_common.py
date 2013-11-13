@@ -66,10 +66,10 @@ yajl.yajl_parse.argtypes = [c_void_p, c_char_p, c_size_t]
 #yajl.yajl_parse_complete.restype = c_int
 #yajl.yajl_parse_complete.argtypes = [c_void_p]
 
-yajl.yajl_complete_parse.restype = c_int
-yajl.yajl_complete_parse.argtypes = [c_void_p]
-#yajl.yajl_gen_alloc.restype = c_void_p
-#yajl.yajl_gen_alloc_argtypes = []
+#yajl.yajl_complete_parse.restype = c_int
+#yajl.yajl_complete_parse.argtypes = [c_void_p]
+yajl.yajl_gen_alloc.restype = c_void_p
+yajl.yajl_gen_alloc_argtypes = []
 #yajl.yajl_gen_bool.argtypes = [c_void_p, c_bool]
 #yajl.yajl_gen_array_close.argtypes = [c_void_p]
 #yajl.yajl_gen_array_open.argtypes = [c_void_p]
