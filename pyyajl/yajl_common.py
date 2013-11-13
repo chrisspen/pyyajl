@@ -81,11 +81,11 @@ yajl.yajl_get_error.restype = c_char_p
 yajl.yajl_gen_get_buf.restype = c_int
 yajl.yajl_gen_get_buf.argtypes = [c_void_p, c_void_p, c_void_p]
 yajl.yajl_gen_integer.argtypes = [c_void_p, c_longlong]
-#yajl.yajl_gen_map_close.argtypes = [c_void_p]
-#yajl.yajl_gen_map_open.argtypes = [c_void_p]
-#yajl.yajl_gen_null.argtypes = [c_void_p]
-#yajl.yajl_gen_number.argtypes = [c_void_p, c_char_p, c_int]
-#yajl.yajl_gen_string.argtypes = [c_void_p, c_char_p, c_int]
+yajl.yajl_gen_map_close.argtypes = [c_void_p]
+yajl.yajl_gen_map_open.argtypes = [c_void_p]
+yajl.yajl_gen_null.argtypes = [c_void_p]
+yajl.yajl_gen_number.argtypes = [c_void_p, c_char_p, c_int]
+yajl.yajl_gen_string.argtypes = [c_void_p, c_char_p, c_int]
 
 #new
 yajl.yajl_get_error.argtypes = [c_void_p, c_int, c_char_p, c_size_t]
