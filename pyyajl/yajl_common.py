@@ -51,7 +51,9 @@ def get_yajl_version():
 yajl = load_yajl()
 
 #yajl.yajl_alloc.restype = c_void_p
-#yajl.yajl_alloc.argtypes = [c_void_p, c_void_p, c_void_p]
+#yajl.yajl_alloc.argtypes = [c_void_p, c_void_p, c_void_p, c_void_p]
+yajl.yajl_alloc.restype = c_void_p
+yajl.yajl_alloc.argtypes = [c_void_p, c_void_p, c_void_p]
 #yajl.yajl_config.restype = c_int
 #yajl.yajl_config.argtypes = [c_void_p, c_int]
 #yajl.yajl_free.argtypes = [c_void_p]
@@ -82,8 +84,6 @@ yajl = load_yajl()
 #yajl.yajl_get_bytes_consumed.argtypes = [c_void_p, c_char_p]
 #yajl.yajl_gen_free.argtypes = [c_void_p]
 
-yajl.yajl_alloc.restype = c_void_p
-yajl.yajl_alloc.argtypes = [c_void_p, c_void_p, c_void_p, c_void_p]
 yajl.yajl_free.argtypes = [c_void_p]
 yajl.yajl_parse.restype = c_int
 yajl.yajl_parse.argtypes = [c_void_p, c_char_p, c_int]
