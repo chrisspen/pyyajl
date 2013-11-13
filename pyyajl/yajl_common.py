@@ -62,20 +62,20 @@ yajl.yajl_free.argtypes = [c_void_p]
 yajl.yajl_parse.restype = c_int
 yajl.yajl_parse.argtypes = [c_void_p, c_char_p, c_size_t]
 #old
-#yajl.yajl_parse.argtypes = [c_void_p, c_char_p, c_int]
-#yajl.yajl_parse_complete.restype = c_int
-#yajl.yajl_parse_complete.argtypes = [c_void_p]
+#yajl.yajl_parse.argtypes = [c_void_p, c_char_p, c_int]#undefined symbol
+#yajl.yajl_parse_complete.restype = c_int#undefined symbol
+#yajl.yajl_parse_complete.argtypes = [c_void_p]#undefined symbol
 
-#yajl.yajl_complete_parse.restype = c_int
-#yajl.yajl_complete_parse.argtypes = [c_void_p]
+#yajl.yajl_complete_parse.restype = c_int#undefined symbol
+#yajl.yajl_complete_parse.argtypes = [c_void_p]#undefined symbol
 yajl.yajl_gen_alloc.restype = c_void_p
 yajl.yajl_gen_alloc_argtypes = []
 yajl.yajl_gen_bool.argtypes = [c_void_p, c_bool]
 yajl.yajl_gen_array_close.argtypes = [c_void_p]
 yajl.yajl_gen_array_open.argtypes = [c_void_p]
 yajl.yajl_gen_clear.argtypes = [c_void_p]
-#yajl.yajl_gen_config.restype = c_int
-#yajl.yajl_gen_config.argtypes = [c_void_p, c_int]
+#yajl.yajl_gen_config.restype = c_int#undefined symbol
+#yajl.yajl_gen_config.argtypes = [c_void_p, c_int]#undefined symbol
 yajl.yajl_gen_double.argtypes = [c_void_p, c_double]
 yajl.yajl_get_error.restype = c_char_p
 yajl.yajl_gen_get_buf.restype = c_int
@@ -91,8 +91,7 @@ yajl.yajl_gen_string.argtypes = [c_void_p, c_char_p, c_int]
 yajl.yajl_get_error.argtypes = [c_void_p, c_int, c_char_p, c_size_t]
 #old
 yajl.yajl_get_error.restype = c_char_p
-#yajl.yajl_get_error.argtypes = [c_void_p, c_int, c_char_p, c_int]
-
+#yajl.yajl_get_error.argtypes = [c_void_p, c_int, c_char_p, c_int]#undefined symbol
 
 yajl.yajl_get_bytes_consumed.restype = c_uint
 yajl.yajl_get_bytes_consumed.argtypes = [c_void_p, c_char_p]
