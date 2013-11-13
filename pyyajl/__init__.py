@@ -16,7 +16,7 @@ from yajl_gen import *
 from yajl_simple import *
 
 __version__ = '2.0.6'
-yajl_version = get_yajl_version()
+#yajl_version = get_yajl_version()
 
 def check_yajl_version():
     '''
@@ -35,4 +35,4 @@ def check_yajl_version():
         return False
     return True
 
-check_yajl_version()
+#check_yajl_version()
