@@ -94,9 +94,9 @@ yajl.yajl_get_error.restype = c_char_p
 #yajl.yajl_get_error.argtypes = [c_void_p, c_int, c_char_p, c_int]
 
 
-#yajl.yajl_get_bytes_consumed.restype = c_uint
-#yajl.yajl_get_bytes_consumed.argtypes = [c_void_p, c_char_p]
-#yajl.yajl_gen_free.argtypes = [c_void_p]
+yajl.yajl_get_bytes_consumed.restype = c_uint
+yajl.yajl_get_bytes_consumed.argtypes = [c_void_p, c_char_p]
+yajl.yajl_gen_free.argtypes = [c_void_p]
 
 #old
 #yajl.yajl_parse.restype = c_int
